@@ -909,7 +909,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_header.scss */
 .header-area {
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   width: 100%;
@@ -1247,10 +1247,11 @@ h3 {
 
 /* line 8, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_slider.scss */
 .slider_area .single_slider {
-  height: 960px;
+  height: 490px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  padding-top: 74px;
 }
 
 @media (max-width: 767px) {
