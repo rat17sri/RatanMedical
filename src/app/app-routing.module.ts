@@ -6,7 +6,6 @@ import { ContactComponent } from './components/contact/contact.component';
 import { EmrTranscriptionComponent } from './components/emr-transcription/emr-transcription.component';
 import { HowItWorksComponent } from './components/how-it-works/how-it-works.component';
 import { HippaComponent } from './components/hippa/hippa.component';
-import { LegalTranscriptionComponent } from './components/legal-transcription/legal-transcription.component';
 import { MobileDictationComponent } from './components/mobile-dictation/mobile-dictation.component';
 import { PracticeFusionComponent } from './components/practice-fusion/practice-fusion.component';
 import { RemoteEhrComponent } from './components/remote-ehr/remote-ehr.component';
@@ -19,11 +18,10 @@ const routes: Routes = [
   {path:'emrTranscription',component:EmrTranscriptionComponent},
   {path:'hippa',component:HippaComponent},
   {path:'howItWorks',component:HowItWorksComponent},
-  {path:'legalTranscription',component:LegalTranscriptionComponent},
   {path:'mobileDictation',component:MobileDictationComponent},
   {path:'practiceFusion',component:PracticeFusionComponent},
-  {path:'remoteEHR',component:RemoteEhrComponent}
-  // {path:"**",component:HomeComponent},
+  {path:'remoteEHR',component:RemoteEhrComponent},
+   {path:"**",component:HomeComponent}
 ];
 
 @NgModule({
@@ -32,5 +30,5 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 export const routingComponents=[HomeComponent,AboutComponent,ContactComponent,
-  EmrTranscriptionComponent,HippaComponent,HowItWorksComponent,LegalTranscriptionComponent,
+  EmrTranscriptionComponent,HippaComponent,HowItWorksComponent,
   MobileDictationComponent,PracticeFusionComponent,RemoteEhrComponent]

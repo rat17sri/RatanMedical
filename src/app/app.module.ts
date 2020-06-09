@@ -13,7 +13,6 @@ import { MobileDictationComponent } from './components/mobile-dictation/mobile-d
 import { HowItWorksComponent } from './components/how-it-works/how-it-works.component';
 import { HippaComponent } from './components/hippa/hippa.component';
 import { RemoteEhrComponent } from './components/remote-ehr/remote-ehr.component';
-import { LegalTranscriptionComponent } from './components/legal-transcription/legal-transcription.component';
 import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
@@ -29,7 +28,6 @@ import { ContactComponent } from './components/contact/contact.component';
     HowItWorksComponent,
     HippaComponent,
     RemoteEhrComponent,
-    LegalTranscriptionComponent,
     ContactComponent
   ],
   imports: [

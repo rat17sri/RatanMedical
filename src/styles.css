@@ -3252,6 +3252,11 @@ h3 {
   padding-top: 26px;
   margin-top: 24px;
 }
+single_expert2{
+  border-top: 1px solid #cbf0ff;
+  padding-top: 26px;
+  margin-top: 24px;
+}
 
 /* line 56, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_experts.scss */
 .expert_doctors_area .single_expert .experts_name .social_links li {

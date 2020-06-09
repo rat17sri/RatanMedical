@@ -3,3 +3,24 @@
     width: 100%;
     display: table;
 }
+
+margin-less{
+    font-size: 14px;
+    color: #5c5c5c;
+    line-height: 22px;
+}
+
+complaints{
+    width: auto;
+    display: table;
+    margin: 0px;
+    float: left;
+    padding-right: 40px
+}
+
+secure-facilities{
+    width: 50%;
+    float: left;
+    text-align: justify;
+    padding-bottom: 0px;
+}
