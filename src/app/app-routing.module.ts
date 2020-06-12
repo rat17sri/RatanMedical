@@ -8,7 +8,8 @@ import { HowItWorksComponent } from './components/how-it-works/how-it-works.comp
 import { HippaComponent } from './components/hippa/hippa.component';
 import { MobileDictationComponent } from './components/mobile-dictation/mobile-dictation.component';
 import { PracticeFusionComponent } from './components/practice-fusion/practice-fusion.component';
-import { RemoteEhrComponent } from './components/remote-ehr/remote-ehr.component';
+import { BlogComponent } from './components/blog/blog.component';
+import { LoginComponent } from './components/login/login.component';
 
 
 const routes: Routes = [
@@ -20,7 +21,8 @@ const routes: Routes = [
   {path:'howItWorks',component:HowItWorksComponent},
   {path:'mobileDictation',component:MobileDictationComponent},
   {path:'practiceFusion',component:PracticeFusionComponent},
-  {path:'remoteEHR',component:RemoteEhrComponent},
+  {path:'blog',component:BlogComponent},
+  {path:'login',component:LoginComponent},
    {path:"**",component:HomeComponent}
 ];
 
@@ -31,4 +33,4 @@ const routes: Routes = [
 export class AppRoutingModule { }
 export const routingComponents=[HomeComponent,AboutComponent,ContactComponent,
   EmrTranscriptionComponent,HippaComponent,HowItWorksComponent,
-  MobileDictationComponent,PracticeFusionComponent,RemoteEhrComponent]
+  MobileDictationComponent,PracticeFusionComponent,BlogComponent,LoginComponent]

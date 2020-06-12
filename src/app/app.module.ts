@@ -12,8 +12,9 @@ import { PracticeFusionComponent } from './components/practice-fusion/practice-f
 import { MobileDictationComponent } from './components/mobile-dictation/mobile-dictation.component';
 import { HowItWorksComponent } from './components/how-it-works/how-it-works.component';
 import { HippaComponent } from './components/hippa/hippa.component';
-import { RemoteEhrComponent } from './components/remote-ehr/remote-ehr.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { BlogComponent } from './components/blog/blog.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -27,8 +28,9 @@ import { ContactComponent } from './components/contact/contact.component';
     MobileDictationComponent,
     HowItWorksComponent,
     HippaComponent,
-    RemoteEhrComponent,
-    ContactComponent
+    ContactComponent,
+    BlogComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
