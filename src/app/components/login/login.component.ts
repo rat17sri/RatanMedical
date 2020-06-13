@@ -12,4 +12,15 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  exavaultExavault(){
+    window.location.href='';
+  }
+  
+  mediHostLogin(){
+    window.location.href='';
+  }
+  webshuttleLogin(){
+    window.location.href='';
+  }
+
 }
