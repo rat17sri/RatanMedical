@@ -3292,7 +3292,7 @@ single_expert2{
 }
 
 /* line 4, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
-.Emergency_contact::before, .Emergency_contact::after {
+/* .Emergency_contact::before, .Emergency_contact::after {
   background-image: url(./assets/images/banner/emergency_1.jpg);
   content: '';
   width: 50%;
@@ -3300,7 +3300,7 @@ single_expert2{
   height: 100%;
   position: absolute;
   z-index: -1;
-}
+} */
 
 /* line 13, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
 .Emergency_contact::before {
