@@ -35,11 +35,18 @@ p {
 }
 
 .img-logo {
-    height: 250px;
-    width: 350px;
-    /* margin: 20px; */
-    /* margin-left: 80px; */
-    padding: 30px;
+    height: 200px;
+    width: 200px;
+    /* margin-bottom: 20px; */
+    margin: 20px;
+    margin-left: 80px;
+    border: 1px solid cornflowerblue;
+    border-radius: 50%;
+    padding: 10px;
     cursor: pointer;
+}
+
+.row {
+    margin-right: 0 !important;
 }
 
