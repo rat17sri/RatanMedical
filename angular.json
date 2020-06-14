@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Medical"
+    }
+  },
+  "defaultProject": "Medical",
+  "cli": {
+    "analytics": false
+  }
 }
